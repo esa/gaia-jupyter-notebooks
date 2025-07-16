@@ -4,11 +4,15 @@
 [//]: # (is part of this source code package. No part of the package, including)
 [//]: # (this file, may be copied, modified, propagated, or distributed except according to)
 [//]: # (the terms contained in the file ‘LICENCE.txt’.)
+[![License: ESA permissive](https://img.shields.io/badge/ESA%20Public%20License-Permissive-blue.svg)](https://github.com/esa/gaia-jupyter-notebooks/blob/main/LICENSE.txt)
 
 # Gaia ESA Archive Tutorials
 
 ## Description
-This project contains a set of programmatic tutorials that show how to access, retrieve, and explore different datasets served by the Gaia ESA Archive.
+This repository contains a set of programmatic tutorials in the form of jupyter notebooks that show how to access, retrieve, and explore different datasets served by the Gaia ESA Archive.
+
+## Usage
+Each notebook in this repository is self-contained and includes detailed instructions and examples. 
 
 
 ## Installation
@@ -20,17 +24,13 @@ This project contains a set of programmatic tutorials that show how to access, r
 ### Setup
 To create the conda environment, run the following command:
 ```bash
-CONDA_SUBDIR=osx-64 conda env create -f environment.yml
+CONDA_SUBDIR=osx-64 conda env create -f data-release-3-tutorials/environment.yml
 ```
 
 To activate the environment:
 ```bash
 conda activate gaia_archive_tutorial
 ```
-
-## Usage
-Each notebook in this repository is self-contained and includes detailed instructions and examples. 
-
 
 ## License
 This project is licensed under the terms included in the [LICENSE.txt](LICENSE.txt) file.
@@ -41,3 +41,7 @@ To generate the list of third-party dependencies and their licenses, run:
 pip install pip-licenses
 pip-licenses --format=markdown --output-file=third-party-licenses.md
 ```
+
+## Contact
+
+In case of questions or issues, please open an issue in the repository or contact the maintainers through the Gaia Helpdesk at [gaia-helpdesk@esa.int](mailto:gaia-helpdesk@esa.int).
